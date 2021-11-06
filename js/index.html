@@ -1,93 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="jquery-3.4.0.min.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <img class="headerBike" src="pics/alpinstars.png" alt="mountains" />
-      <img class="headerBike" src="pics/ama.png" alt="mountains" />
-      <img class="headerBike" src="pics/fox.png" alt="mountains" />
-      <img class="headerBike" src="pics/fmf.png" alt="mountains" />
-    </header>
-    <div id="nav">
-      <ul>
-        <li><a href="">Motorcycles</a></li>
-        <li>
-          <a href="">Equipment</a>
-          <!-- <ul>
-            <li><a href="">Helmets</a></li>
-            <li><a href="">Boots</a></li>
-            <li><a href="">Suits</a></li>
-            <li><a href="">Protection</a></li>
-            <li><a href="">Gloves</a></li>
-          </ul> -->
-        </li>
-        <li><a href="">Supplements</a></li>
-        <li><a href="contactUs.html">Contact Us</a></li>
-      </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="jquery-3.4.0.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <img class="headerBike" src="pics/alpinstars.png" alt="mountains" />
+    <img class="headerBike" src="pics/ama.png" alt="mountains" />
+    <img class="headerBike" src="pics/fox.png" alt="mountains" />
+    <img class="headerBike" src="pics/fmf.png" alt="mountains" />
+  </header>
+  <div id="nav">
+    <ul>
+      <li><a href="">Motorcycles</a></li>
+      <li>
+        <a href="">Equipment</a>
+        <ul>
+          <li><a href="">Helmets</a></li>
+          <li><a href="">Boots</a></li>
+          <li><a href="">Suits</a></li>
+          <li><a href="">Protection</a></li>
+          <li><a href="">Gloves</a></li>
+        </ul>
+      </li>
+      <li><a href="">Supplements</a></li>
+      <li><a href="contactUs.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <h3 id="HondaBrandHeader">Honda</h3>
+  <div id="HondaProductsSection">
+    <div class="product">
+      <img class="pic" src="pics/crf450x.webp" alt="Honda crf 450 x" />
+      <p>Honda CRF 450X</p>
+      <button class="btnPurchase">Purchase</button>
+      <button class="btnExplore"
+        onclick="window.location = 'https://powersports.honda.com/off-road/competition/crf450x';">
+        Explore
+      </button>
     </div>
-    <h3 id="hondaHeader">Honda</h3>
-    <div id="productsSection">
+    <div class="product">
+      <img class="pic" src="pics/crf450rx.webp" alt="Honda crf 450rx" />
+      <p>Honda CRF 450RX</p>
+      <button class="btnPurchase">Purchase</button>
+      <button class="btnExplore" onclick="">Explore</button>
+    </div>
+    <div class="product">
+      <img class="pic" src="pics/crf450rwe.webp" alt="Honda crf 450rwe" />
+      <p>Honda CRF 450RWE</p>
+      <button class="btnPurchase">Purchase</button>
+      <button class="btnExplore" onclick="">Explore</button>
+    </div>
+    <div class="product">
+      <img class="pic" src="pics/crf450r.webp" alt="Honda crf 450r" />
+      <p>Honda CRF 450R</p>
+      <button class="btnPurchase">Purchase</button>
+      <button class="btnExplore" onclick="">Explore</button>
+    </div>
+    <div class="product">
+      <img class="pic" src="pics/crf450r-s.webp" alt="Honda crf 450rs" />
+      <p>Honda CRF 450RS</p>
+      <button class="btnPurchase">Purchase</button>
+      <button class="btnExplore" onclick="">Explore</button>
+    </div>
+    <div class="product">
+      <img class="pic" src="pics/crf250r.webp" alt="Honda crf 250rx" />
+      <p>Honda CRF 250RX</p>
+      <button class="btnPurchase">Purchase</button>
+      <button class="btnExplore" onclick="">Explore</button>
+    </div>
+    <div class="product">
+      <img class="pic" src="pics/crf250r.webp" alt="Honda crf 250r" />
+      <p>Honda CRF 250R</p>
+      <button class="btnPurchase">Purchase</button>
+      <button class="btnExplore" onclick="">Explore</button>
+    </div>
+    <div class="product">
+      <img class="pic" src="pics/crf150r.webp" alt="Honda crf 150r" />
+      <p>Honda CRF 150R</p>
+      <button class="btnPurchase">Purchase</button>
+      <button class="btnExplore" onclick="">Explore</button>
+    </div>
+  </div>
+  <div id="Yamaha">
+    <h3 id="YamahaBrandHeader">Yamaha</h3>
+    <div id="YamahaProductsSection">
       <div class="product">
-        <img class="pic" src="pics/crf450x.webp" alt="Honda crf 450 x" />
-        <p>Honda CRF 450X</p>
-        <button class="btnPurchase">Purchase</button>
-        <button
-          class="btnExplore"
-          onclick="window.location = 'https://powersports.honda.com/off-road/competition/crf450x';"
-        >
-          Explore
-        </button>
-      </div>
-      <div class="product">
-        <img class="pic" src="pics/crf450rx.webp" alt="Honda crf 450rx" />
-        <p>Honda CRF 450RX</p>
+        <img class="pic" src="pics/Yamaha/YZ450F_Monster_Energy_Yamaha_Racing_Edition.png"
+          alt="YZ450F_Monster_Energy_Yamaha_Racing_Edition" />
+        <p>YZ450F Monster Energy</p>
         <button class="btnPurchase">Purchase</button>
         <button class="btnExplore" onclick="">Explore</button>
       </div>
       <div class="product">
-        <img class="pic" src="pics/crf450rwe.webp" alt="Honda crf 450rwe" />
-        <p>Honda CRF 450RWE</p>
+        <img class="pic" src="pics/Yamaha/YZ450F.png" alt="YZ450F" />
+        <p>YZ450F</p>
         <button class="btnPurchase">Purchase</button>
         <button class="btnExplore" onclick="">Explore</button>
       </div>
       <div class="product">
-        <img class="pic" src="pics/crf450r.webp" alt="Honda crf 450r" />
-        <p>Honda CRF 450R</p>
+        <img class="pic" src="pics/Yamaha/YZ250F_Monster_Energy_Yamaha_Racing_Edition.png"
+          alt="YZ250F_Monster_Energy_Yamaha_Racing_Edition" />
+        <p>YZ250F Monster Energy</p>
         <button class="btnPurchase">Purchase</button>
         <button class="btnExplore" onclick="">Explore</button>
       </div>
       <div class="product">
-        <img class="pic" src="pics/crf450r-s.webp" alt="Honda crf 450rs" />
-        <p>Honda CRF 450RS</p>
+        <img class="pic" src="pics/Yamaha/YZ250F.png" alt="YZ250F" />
+        <p>YZ250F</p>
         <button class="btnPurchase">Purchase</button>
         <button class="btnExplore" onclick="">Explore</button>
       </div>
       <div class="product">
-        <img class="pic" src="pics/crf250r.webp" alt="Honda crf 250rx" />
-        <p>Honda CRF 250RX</p>
+        <img class="pic" src="pics/Yamaha/YZ250_Monster_Energy_Yamaha_Racing_Edition.png"
+          alt="YZ250_Monster_Energy_Yamaha_Racing_Edition" />
+        <p>YZ250 Monster Energy</p>
         <button class="btnPurchase">Purchase</button>
         <button class="btnExplore" onclick="">Explore</button>
       </div>
       <div class="product">
-        <img class="pic" src="pics/crf250r.webp" alt="Honda crf 250r" />
-        <p>Honda CRF 250R</p>
+        <img class="pic" src="pics/Yamaha/YZ250.png" alt="YZ250" />
+        <p>YZ250</p>
         <button class="btnPurchase">Purchase</button>
         <button class="btnExplore" onclick="">Explore</button>
       </div>
       <div class="product">
-        <img class="pic" src="pics/crf150r.webp" alt="Honda crf 150r" />
-        <p>Honda CRF 150R</p>
+        <img class="pic" src="pics/Yamaha/YZ125.png" alt="YZ125" />
+        <p>YZ125</p>
+        <button class="btnPurchase">Purchase</button>
+        <button class="btnExplore" onclick="">Explore</button>
+      </div>
+      <div class="product">
+        <img class="pic" src="pics/Yamaha/YZ85LW.png" alt="YZ85LW" />
+        <p>YZ85LW</p>
+        <button class="btnPurchase">Purchase</button>
+        <button class="btnExplore" onclick="">Explore</button>
+      </div>
+      <div class="product">
+        <img class="pic" src="pics/Yamaha/YZ85.png" alt="YZ85" />
+        <p>YZ85</p>
+        <button class="btnPurchase">Purchase</button>
+        <button class="btnExplore" onclick="">Explore</button>
+      </div>
+      <div class="product">
+        <img class="pic" src="pics/Yamaha/YZ65.png" alt="YZ65" />
+        <p>YZ65</p>
         <button class="btnPurchase">Purchase</button>
         <button class="btnExplore" onclick="">Explore</button>
       </div>
     </div>
-    <footer></footer>
-    <script src="functionality.js"></script>
-  </body>
+  </div>
+
+  <footer></footer>
+  <script src="functionality.js"></script>
+</body>
+
 </html>

@@ -14,12 +14,12 @@ header {
 
 body {
   margin: 0;
-  background-color: olive;
+  background-color: #E3E0E0;
 }
 
 #nav {
-  width: 100%;
   background-color: black;
+  height: 20px;
 }
 
 ul {
@@ -31,16 +31,15 @@ ul {
 
 li {
   margin-left: 20px;
+  text-decoration: none;
 }
 
 a {
-  text-decoration: none;
   color: white;
   display: block;
-}
-
-ul li ul li {
-  float: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 0;
 }
 
 ul li ul {
@@ -48,32 +47,71 @@ ul li ul {
 }
 
 ul li:hover ul {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid blueviolet;
-  opacity: 0.5;
+  display: block;
+  background-color:black;
+  color:white;
+  list-style: none;
+  position: relative;
+}
+
+ul li ul li{
+  margin-bottom:10px;
+  margin-left: 0;
+  padding: 0;
+}
+
+ul li ul li a{
+  margin:0;
+  padding: 0;
+  text-align:center;
 }
 
 a:hover {
   color: crimson;
   transition: 0.5s;
+
 }
 
-#productsSection {
+p{
+  padding: 0;
+  margin: 0;
+}
+
+#HondaProductsSection {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#hondaHeader {
+#YamahaProductsSection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#YamahaBrandHeader {
   order: 1;
   margin-top: 15px;
   margin-left: 50px;
+  color: #0540B5;
+  text-decoration: underline #0540B5 ;
+}
+
+#HondaBrandHeader {
+  order: 1;
+  margin-top: 15px;
+  margin-left: 50px;
+  color: #CC0000;
+  text-decoration: underline #CC0000;
+}
+
+#Yamaha{
+  margin-top: 100px;
 }
 
 .product {
-  order: 2;
-  display: inline-block;
+  margin: 10px 1px 10px 5px;
+  display: block;
   text-align: center;
   width: 200px;
   height: 200px;
@@ -86,7 +124,7 @@ a:hover {
 
 .btnPurchase {
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin-top: 3px;
+  margin-top: 1px;
   background-color: black;
   color: white;
 }
