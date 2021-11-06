@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("pics/contactUsBackground.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 10vw;
+  margin-left: 5vw;
+}
+
+#box-1 {
+  order: 1;
+  color: rgb(21, 21, 95);
+}
+
+#box-2 {
+  background-color: darkkhaki;
+  border-radius: 5px;
+  order: 2;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  display: flex;
+}
+
+@media only screen and (max-width: 375px) {
+  * {
+    font-size: 15px;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+
+  body {
+    background-color: black;
+    background-image: none;
+  }
+
+  #box-1 {
+    order: 1;
+    color: white;
+  }
+  #box-2 {
+    order: 2;
+    flex-direction: column;
+  }
+
+  input {
+    display: flex;
+  }
+
+  #box-3 {
+    background-image: url("pics/fox.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+    flex-basis: 10rem;
+    order: 3;
+  }
+}

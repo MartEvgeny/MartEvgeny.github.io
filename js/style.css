@@ -1,0 +1,107 @@
+header {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerBike {
+  justify-content: center;
+  max-width: 20%;
+}
+
+body {
+  margin: 0;
+  background-color: olive;
+}
+
+#nav {
+  width: 100%;
+  background-color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul li ul li {
+  float: none;
+}
+
+ul li ul {
+  display: none;
+}
+
+ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blueviolet;
+  opacity: 0.5;
+}
+
+a:hover {
+  color: crimson;
+  transition: 0.5s;
+}
+
+#productsSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#hondaHeader {
+  order: 1;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+.product {
+  order: 2;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+
+.pic {
+  height: 70%;
+  width: 100%;
+}
+
+.btnPurchase {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 3px;
+  background-color: black;
+  color: white;
+}
+
+.btnExplore {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 3px;
+  background-color: red;
+  color: white;
+}
+
+.btnExplore:hover {
+  color: yellowgreen;
+}
+
+.btnPurchase:hover {
+  color: yellowgreen;
+}
