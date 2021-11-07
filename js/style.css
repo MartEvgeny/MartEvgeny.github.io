@@ -32,6 +32,7 @@ ul {
 li {
   margin-left: 20px;
   text-decoration: none;
+  list-style: none;
 }
 
 a {
@@ -142,4 +143,12 @@ p{
 
 .btnPurchase:hover {
   color: yellowgreen;
+}
+
+@media only screen and (max-width: 382px) {
+ 
+  #nav {
+    background-color: black;
+    height: 33px;
+  }
 }
